@@ -2,6 +2,7 @@
 
 ## Branches
 [Git feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+
 | Command | Explanation |
 |---------|-------------|
 | `git checkout -b [branch_name]` | Checkout new branch |
