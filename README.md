@@ -45,7 +45,7 @@
 |---------|-------------|
 | `git reset HEAD^` | Move HEAD to the previous commit. It will undo the current commit but keep the changes. Rewrites history. (HEAD is a symbolic reference to the currently active branch.) |
 | `git reset --hard HEAD^` | BE CAREFUL! Will remove the previous commit and it's changes permanently. |
-| `git revert` | Creates new commit that undoes the changes from a previous commit. Adds history. |
+| `git revert [commit hash]` | Creates new commit that undoes the changes from a previous commit. Adds history. |
 
 ## Logging
 | Command | Explanation |
